@@ -5,7 +5,15 @@ module.exports = {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        '3xl': '1800px',
+      },
+      fontFamily: {
+        Eczar: ["Eczar", "serif"],
+        work_sans: ["Work Sans", "sans-serif"]
+       },
+    },
   },
   plugins: [],
 }
