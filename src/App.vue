@@ -28,7 +28,7 @@ const showMenu = ref(false)
       <ul :class="showMenu ? 'flex' : 'hidden'"
         class="flex-col items-end mt-8 space-y-4 md:flex md:space-y-0 md:flex-row md:items-center md:space-x-10 md:mt-0">
         <li class="menu-button"><a href="#">Home</a></li>
-        <li class="menu-button"><a href="#work" v-smooth-scroll>Pokemon</a></li>
+        <li class="menu-button"><a href="#pokemon" v-smooth-scroll>Pokemon</a></li>
         <li class="menu-button"><a href="#about" v-smooth-scroll>Acerca</a></li>
       </ul>
     </nav>
@@ -46,7 +46,7 @@ const showMenu = ref(false)
     </div>
   </div>
 
-  <div class="banner-2 space-y-10 pb-20" id="work">
+  <div class="banner-2 space-y-10 pb-20" id="pokemon">
     <h3 class="heading3 my-5">Pokemon</h3>
     <div class="card">
       <div class="space-y-5 py-8 px-8 md:py-16 md:px-20 md:w-1/2">
