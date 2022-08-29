@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue';
+import PokemonPage from './pages/PokemonPage.vue';
 
 const showMenu = ref(false)
 </script>
@@ -49,10 +50,9 @@ const showMenu = ref(false)
     <h3 class="heading3 my-5">Pokemon</h3>
     <div class="card">
       <div class="space-y-5 py-8 px-8 md:py-16 md:px-20 md:w-1/2">
-        <h4 class="project-title item">Quien es ese pokemon?</h4>
-        <p class="font-work_sans pr-12">
-          Proximamente
-        </p>
+        <h4 class="">Quien es ese pokemon?</h4>
+
+        <PokemonPage class=""/>
 
       </div>
 
